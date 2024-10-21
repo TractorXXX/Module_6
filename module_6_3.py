@@ -3,7 +3,7 @@ class Horse:
     def __init__(self):
         self.x_distance = 0
         self.sound = 'Frrr'
-        super().__init__()  # Передаем __init__ из класса Eagle, чтобы мы с помощью метода super смогли
+        super().__init__()  # Передаем __init__, чтобы мы с помощью метода super смогли
                             # обращаться к следующему в цепочке наследования классу Eagle и его атрибутам и методам
 
     def run(self, dx):
